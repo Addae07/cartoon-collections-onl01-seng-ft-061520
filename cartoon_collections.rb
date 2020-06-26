@@ -9,6 +9,7 @@ end
 def long_planteer_calls(planeteer_calls)
   planeteer_calls.any? do |call| call.length > 4
 end
+end 
 
 def find_the_cheese(snacks)
   # the array below is here to help
@@ -16,3 +17,4 @@ def find_the_cheese(snacks)
     snacks.find do |item|
     cheese_types.include?(item)
   end
+end
